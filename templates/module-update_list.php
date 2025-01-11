@@ -1,6 +1,6 @@
 <!-- 最近更新文章 -->
 <div id="access-lastmod" class="post">
-    <div class="panel-heading">最近更新</div>
+    <div class="panel-heading">Recent post</div>
     <ul class="post-content pl-0 pb-1 ml-1 mt-2">
         <?php
             $args = array(
@@ -19,7 +19,7 @@
                 }
             } else {
                 // 如果没有找到文章，显示一条消息
-                echo '没有找到文章。';
+                echo 'Post empty。';
             }
             
             wp_reset_postdata();
