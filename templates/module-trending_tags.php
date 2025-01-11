@@ -1,5 +1,5 @@
  <div id="access-tags">
-    <div class="panel-heading">热门标签</div>
+    <div class="panel-heading">Popular tags</div>
         <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
             <?php 
             $count = 0;
