@@ -31,7 +31,7 @@ The Side Bar
 
         <li class="nav-item">
             <a href="/category/tech/" class="nav-link">
-                <<i class="fa-solid fa-mug-hot"></i>
+                <i class="fa-solid fa-mug-hot"></i>
                 <span>Digital</span>
             </a>
         </li> <!-- .nav-item -->
