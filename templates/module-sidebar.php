@@ -24,36 +24,36 @@ The Side Bar
         <li class="nav-item">
             <a href="/" class="nav-link">
                 <i class="fa-fw fas fa-home"></i>
-                <span>首页</span>
+                <span>Home</span>
             </a>
         </li>
         <!-- the real tabs -->
 
         <li class="nav-item">
-            <a href="/categories/" class="nav-link">
-                <i class="fa-fw fas fa-stream"></i>
-                <span>分类</span>
+            <a href="/category/tech/" class="nav-link">
+                <<i class="fa-solid fa-mug-hot"></i>
+                <span>Digital</span>
             </a>
         </li> <!-- .nav-item -->
 
         <li class="nav-item">
-            <a href="/tags/" class="nav-link">
+            <a href="/category/personal/" class="nav-link">
                 <i class="fa-fw fas fa-tag"></i>
-                <span>标签</span>
+                <span>Personal</span>
             </a>
         </li> <!-- .nav-item -->
 
         <li class="nav-item">
-            <a href="/archives/" class="nav-link">
+            <a href="/privacy-policy/" class="nav-link">
                 <i class="fa-fw fas fa-archive"></i>
-                <span>归档</span>
+                <span>Privacy Policy</span>
             </a>
         </li> <!-- .nav-item -->
 
         <li class="nav-item">
-            <a href="/about/" class="nav-link">
+            <a href="/about" class="nav-link">
                 <i class="fa-fw fas fa-info-circle"></i>
-                <span>关于</span>
+                <span>About</span>
             </a>
         </li> <!-- .nav-item -->
 
@@ -65,18 +65,11 @@ The Side Bar
         <i class="fas fa-adjust"></i>
       </button>
         <span class="icon-border"></span>
-      <a href="https://github.com/gezhaoyou" aria-label="github" target="_blank"
+      <a href="https://github.com/ixna" aria-label="github" target="_blank"
         rel="noopener noreferrer">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://stackoverflow.com/users/6187004/jaeyo-keh" aria-label="stack-overflow" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-stack-overflow"></i>
-      </a>
-      <a href="https://space.bilibili.com/184789593" aria-label="bilibili" target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa-brands fa-bilibili"></i>
-      </a>
-      <a href="javascript:location.href = 'mailto:' + ['gezhoayou','126.com'].join('@')" aria-label="email">
+      <a href="javascript:location.href = 'mailto:' + ['isna11583','gmail.com'].join('@')" aria-label="email">
         <i class="fas fa-envelope"></i>
       </a>
   </div> <!-- .sidebar-bottom -->
