@@ -6,14 +6,14 @@
         <?php if(is_single()) {
             echo "<span><a href='";
             echo get_bloginfo('url');
-            echo "'>首页 </a></span>";
+            echo "'>Home </a></span>";
 
             echo "<span>";
             echo " ";
             echo the_title();
             echo "</span>";          
         } else {
-            echo "<span>首页</span>";  
+            echo "<span>Home</span>";  
         }?>   
     </span>
     <!-- endof #breadcrumb -->
