@@ -13,7 +13,7 @@
             </div>
 
             <div class="footer-right">
-                <p class="mb-0">本站由 <a href="https://wordpress.org/" target="_blank" rel="noopener nofollow">WordPress</a> with
+                <p class="mb-0">Made with <a href="https://wordpress.org/" target="_blank" rel="noopener nofollow">WordPress</a> with
                     <a href="https://github.com/gezhaoyou/wordpress-theme-molly" target="_blank" rel="noopener nofollow">Molly</a>
                     Theme
                 </p>
