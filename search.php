@@ -18,7 +18,7 @@
               <?php 
                 $search_word = get_search_query();
                 if ( have_posts() ) {
-                  echo '<h3>关键词 "' . $search_word . '" 的搜索结果:</h3>';
+                  echo '<h3>Search results for "' . $search_word . '"</h3>';
                   echo '<div id="post-list">';
                   while ( have_posts() ) {
                       the_post();             
@@ -29,8 +29,8 @@
               } else {
                 echo '<div class="page_not_found">';
                 echo '<img src="http://io.fifo.site/fifo-page-empty.svg" width="250" height="250">';
-                echo '<h2>抱歉, 您搜索的 "' . $search_word . '" 相关内容不存在！</h2>';
-                echo '<p><a href="/">返回首页</a> 尝试发现更多！或者在 <a href="/archives">归档页面</a> 查找想要的内容！</p>';
+                echo '<h2>No results found for keyword "' . $search_word . '"</h2>';
+                echo '<p><a href="/">Return to home</a></p>';
                 echo '</div>';
               }// end if
               ?>
